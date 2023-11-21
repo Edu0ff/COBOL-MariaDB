@@ -1,0 +1,67 @@
+1699194566 OCSQL: DB connect to DSN 'bancoDS' user = 'edu'
+1699194566 OCSQL: DB Connected, Schema is 'banco'
+1699194566 OCSQL: PREPARE SELECT NEXT VALUE FOR banco.domicilio_id_dom_seq
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.domicilio_id_dom_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.domicilio(id_dom,calle_dom,num_dom,cod_post_dom,prov_dom,pobl_dom) VALUES(?,?,?,?,?,?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.domicilio(id_dom,calle_dom,num_dom,cod_post_dom,prov_dom,pobl_dom) VALUES(?,?,?,?,?,?)
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.domicilio_id_dom_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.domicilio(id_dom,calle_dom,num_dom,cod_post_dom,prov_dom,pobl_dom) VALUES(?,?,?,?,?,?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.domicilio(id_dom,calle_dom,num_dom,cod_post_dom,prov_dom,pobl_dom) VALUES(?,?,?,?,?,?)
+1699194566 OCSQL: PREPARE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE id_dom = ?
+1699194566 OCSQL: EXECUTE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE id_dom = ?
+1699194566 OCSQL: PREPARE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE calle_dom = ? AND IFNULL(num_dom,'@') = ? AND cod_post_dom = ?
+1699194566 OCSQL: EXECUTE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE calle_dom = ? AND IFNULL(num_dom,'@') = ? AND cod_post_dom = ?
+1699194566 OCSQL: EXECUTE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE id_dom = ?
+1699194566 OCSQL: EXECUTE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE calle_dom = ? AND IFNULL(num_dom,'@') = ? AND cod_post_dom = ?
+1699194566 OCSQL: EXECUTE SELECT id_dom,calle_dom,num_dom,lpad(cod_post_dom,5,'0'),prov_dom,pobl_dom FROM banco.domicilio WHERE calle_dom = ? AND IFNULL(num_dom,'@') = ? AND cod_post_dom = ?
+1699194566 OCSQL: PREPARE SELECT NEXT VALUE FOR banco.cliente_id_cliente_seq
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.cliente_id_cliente_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.cliente(id_cliente,nif_cliente,nom_cliente,fec_nac_cliente,id_dom) VALUES(?,?,?,str_to_date(?,'%Y%m%d'),?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.cliente(id_cliente,nif_cliente,nom_cliente,fec_nac_cliente,id_dom) VALUES(?,?,?,str_to_date(?,'%Y%m%d'),?)
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.cliente_id_cliente_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.cliente(id_cliente,nif_cliente,nom_cliente,fec_nac_cliente,id_dom) VALUES(?,?,?,str_to_date(?,'%Y%m%d'),?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.cliente(id_cliente,nif_cliente,nom_cliente,fec_nac_cliente,id_dom) VALUES(?,?,?,str_to_date(?,'%Y%m%d'),?)
+1699194566 OCSQL: PREPARE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE id_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE id_cliente = ?
+1699194566 OCSQL: PREPARE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE nif_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE nif_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE id_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,nif_cliente,nom_cliente,cast(date_format(fec_nac_cliente,'%Y%m%d') as int),id_dom FROM banco.cliente WHERE nif_cliente = ?
+1699194566 OCSQL: PREPARE SELECT NEXT VALUE FOR banco.medio_id_medio_seq
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.medio_id_medio_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.medio(id_medio,tip_med) VALUES(?,'CTA')
+1699194566 OCSQL: EXECUTE INSERT INTO banco.medio(id_medio,tip_med) VALUES(?,'CTA')
+1699194566 OCSQL: PREPARE INSERT INTO banco.cuenta(id_medio,num_cuenta,saldo_cuenta) VALUES(?,?,?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.cuenta(id_medio,num_cuenta,saldo_cuenta) VALUES(?,?,?)
+1699194566 OCSQL: PREPARE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE id_medio = ?
+1699194566 OCSQL: PREPARE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE num_cuenta = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE num_cuenta = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,num_cuenta,saldo_cuenta FROM banco.cuenta WHERE num_cuenta = ?
+1699194566 OCSQL: PREPARE INSERT INTO banco.cliente_rln_cuenta(id_cliente,id_medio,tip_rln) VALUES(?,?,?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.cliente_rln_cuenta(id_cliente,id_medio,tip_rln) VALUES(?,?,?)
+1699194566 OCSQL: PREPARE SELECT id_cliente,id_medio,tip_rln FROM banco.cliente_rln_cuenta WHERE id_cliente = ? AND id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,id_medio,tip_rln FROM banco.cliente_rln_cuenta WHERE id_cliente = ? AND id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_cliente,id_medio,tip_rln FROM banco.cliente_rln_cuenta WHERE id_cliente = ? AND id_medio = ?
+1699194566 OCSQL: PREPARE SELECT NEXT VALUE FOR banco.medio_id_medio_seq
+1699194566 OCSQL: EXECUTE SELECT NEXT VALUE FOR banco.medio_id_medio_seq
+1699194566 OCSQL: PREPARE INSERT INTO banco.medio(id_medio,tip_med) VALUES(?,'TRJ')
+1699194566 OCSQL: EXECUTE INSERT INTO banco.medio(id_medio,tip_med) VALUES(?,'TRJ')
+1699194566 OCSQL: PREPARE INSERT INTO banco.tarjeta(id_medio,id_cliente,id_medio_cta,num_tarjeta,cred_tarjeta,fec_tarjeta,ccv_tarjeta) VALUES(?,?,?,?,?,str_to_date(?,'%y%d%m'),?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.tarjeta(id_medio,id_cliente,id_medio_cta,num_tarjeta,cred_tarjeta,fec_tarjeta,ccv_tarjeta) VALUES(?,?,?,?,?,str_to_date(?,'%y%d%m'),?)
+1699194566 OCSQL: PREPARE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio = ?
+1699194566 OCSQL: PREPARE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE num_tarjeta = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE num_tarjeta = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE num_tarjeta = ?
+1699194566 OCSQL: PREPARE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio_cta = ? AND id_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio_cta = ? AND id_cliente = ?
+1699194566 OCSQL: EXECUTE SELECT id_medio,id_medio_cta,id_cliente,num_tarjeta,cred_tarjeta,date_format(fec_tarjeta,'%d%m%y'),ccv_tarjeta FROM banco.tarjeta WHERE id_medio_cta = ? AND id_cliente = ?
+1699194566 OCSQL: PREPARE INSERT INTO banco.movimiento(id_medio,fec_mov,cnpt_mov,importe_mov) VALUES(?,str_to_date(?,'%Y%m%d%H%i%s%f'),?,?)
+1699194566 OCSQL: EXECUTE INSERT INTO banco.movimiento(id_medio,fec_mov,cnpt_mov,importe_mov) VALUES(?,str_to_date(?,'%Y%m%d%H%i%s%f'),?,?)
+1699194566 OCSQL: PREPARE SELECT id_medio,date_format(fec_mov,'%Y%m%d%H%i%s%f'),cnpt_mov,importe_mov FROM banco.movimiento WHERE id_medio = ? AND fec_mov = str_to_date(?,'%Y%m%d%H%i%s%f')
+1699194566 OCSQL: EXECUTE SELECT id_medio,date_format(fec_mov,'%Y%m%d%H%i%s%f'),cnpt_mov,importe_mov FROM banco.movimiento WHERE id_medio = ? AND fec_mov = str_to_date(?,'%Y%m%d%H%i%s%f')
+1699194566 OCSQL: EXECUTE SELECT id_medio,date_format(fec_mov,'%Y%m%d%H%i%s%f'),cnpt_mov,importe_mov FROM banco.movimiento WHERE id_medio = ? AND fec_mov = str_to_date(?,'%Y%m%d%H%i%s%f')
+1699194566 OCSQL: Last DB Connection Closed

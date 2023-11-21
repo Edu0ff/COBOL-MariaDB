@@ -1,0 +1,62 @@
+FICHERO ABIERTO
+NOMBRE           [POL NAREFF                                               ]
+NIF              [980485390K]
+FECHA NACIMIENTO [12/08/1979]
+DOMILICIO        [CALLE MORIOH                       ,    , 45896, EGIPTO          , TOKIO                            ]
+NUMERO CUENTA    [3058 1280 67 3451 098765 - TITULAR   ]
+SALDO            [+       584,75]
+NUMERO TARJETA   [5587 4236 1987 4512]
+CRÉDITO          [+        50,12]
+FECHA TARJETA    [04/26]
+CCV              [042]
+NUMERO CUENTA    [4657 3837 46 4547 575858 - AUTORIZADO]
+SALDO            [+       158,96]
+NUMERO TARJETA   [9465 8593 8475 6576]
+CRÉDITO          [+        17,63]
+FECHA TARJETA    [07/23]
+CCV              [043]
+MOVIMIENTO       [SEGUROS SANTALUCIA     ]
+CARGADO EN       [CUENTA : 3058 1280 67 3451 098765]
+IMPORTE          [-        56,78]
+FECHA            [2020-01-18 08:23:55.000000]
+MOVIMIENTO       [MASSIMO DUTI           ]
+CARGADO EN       [TARJETA: 9465 8593 8475 6576]
+IMPORTE          [-        34,96]
+FECHA            [2019-03-07 09:23:05.000000]
+MOVIMIENTO       [NOMINA POL             ]
+CARGADO EN       [CUENTA : 3058 1280 67 3451 098765]
+IMPORTE          [+     1.556,00]
+FECHA            [2020-06-20 10:56:55.000000]
+*********BANCO-ALTA-CLIENTE************
+NUM   
+CALLECALLE MORIOH                       
+CODPOS45896
+PROVEGIPTO          
+POBLTOKIO           
+--------------------------------------------------
+NOMBRE           [IGGY THE FOOL                                            ]
+NIF              [086547834J]
+FECHA NACIMIENTO [17/02/1950]
+NUMERO CUENTA    [3058 8636 43 5000 730180 - COTITULAR ]
+SALDO            [+        20,01]
+MOVIMIENTO       [MERCADONA              ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [-        57,68]
+FECHA            [2022-12-18 09:40:05.000000]
+MOVIMIENTO       [LIDL                   ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [-        87,65]
+FECHA            [2023-09-08 10:50:45.000000]
+MOVIMIENTO       [NOMINA IGGY            ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [+     1.080,00]
+FECHA            [2023-05-25 10:50:45.000000]
+*********BANCO-ALTA-CLIENTE************
+NUM   
+CALLE                                   
+CODPOS00000
+PROV                
+POBL                
+--------------------------------------------------
+FICHERO CERRADO
+PROVINCIA VACIA                                   

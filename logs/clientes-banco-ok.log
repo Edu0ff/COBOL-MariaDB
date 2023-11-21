@@ -1,0 +1,142 @@
+FICHERO ABIERTO
+NOMBRE           [POL NAREFF                                               ]
+NIF              [980485390K]
+FECHA NACIMIENTO [12/08/1979]
+DOMILICIO        [CALLE MORIOH                       ,    , 45896, EGIPTO          , TOKIO                            ]
+NUMERO CUENTA    [3058 1280 67 3451 098765 - TITULAR   ]
+SALDO            [+       584,75]
+NUMERO TARJETA   [5587 4236 1987 4512]
+CRÉDITO          [+        50,12]
+FECHA TARJETA    [04/26]
+CCV              [852]
+NUMERO CUENTA    [4657 3837 46 4547 575858 - AUTORIZADO]
+SALDO            [+       158,96]
+NUMERO TARJETA   [9465 8593 8475 6576]
+CRÉDITO          [+        17,63]
+FECHA TARJETA    [07/23]
+CCV              [853]
+MOVIMIENTO       [SEGUROS SANTALUCIA     ]
+CARGADO EN       [CUENTA : 3058 1280 67 3451 098765]
+IMPORTE          [-        56,78]
+FECHA            [2020-01-18 08:23:55.000000]
+MOVIMIENTO       [MASSIMO DUTI           ]
+CARGADO EN       [TARJETA: 9465 8593 8475 6576]
+IMPORTE          [-        34,96]
+FECHA            [2019-03-07 09:23:05.000000]
+MOVIMIENTO       [NOMINA POL             ]
+CARGADO EN       [CUENTA : 3058 1280 67 3451 098765]
+IMPORTE          [+     1.556,00]
+FECHA            [2020-06-20 10:56:55.000000]
+*********BANCO-ALTA-CLIENTE************
+NUM   
+CALLECALLE MORIOH                       
+CODPOS45896
+PROVEGIPTO          
+POBLTOKIO           
+--------------------------------------------------
+NOMBRE           [IGGY THE FOOL                                            ]
+NIF              [086547834J]
+FECHA NACIMIENTO [17/02/1950]
+NUMERO CUENTA    [3058 8636 43 5000 730180 - COTITULAR ]
+SALDO            [+        20,01]
+MOVIMIENTO       [MERCADONA              ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [-        57,68]
+FECHA            [2022-12-18 09:40:05.000000]
+MOVIMIENTO       [LIDL                   ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [-        87,65]
+FECHA            [2023-09-08 10:50:45.000000]
+MOVIMIENTO       [NOMINA IGGY            ]
+CARGADO EN       [CUENTA : 3058 8636 43 5000 730180]
+IMPORTE          [+     1.080,00]
+FECHA            [2023-05-25 10:50:45.000000]
+*********BANCO-ALTA-CLIENTE************
+NUM   
+CALLE                                   
+CODPOS00000
+PROV                
+POBL                
+--------------------------------------------------
+NOMBRE           [BENITO CAMELAS                                           ]
+NIF              [K81712743T]
+FECHA NACIMIENTO [06/12/1996]
+DOMILICIO        [CALLE CROTOLAMO                    , S/N, 78451, ALMERIA         , ROQUETAS DE MAR                  ]
+NUMERO CUENTA    [9564 8702 35 4810 256320 - TITULAR   ]
+SALDO            [+        15,19]
+NUMERO TARJETA   [5874 2569 8712 3546]
+CRÉDITO          [+         1,22]
+FECHA TARJETA    [01/25]
+CCV              [856]
+MOVIMIENTO       [CARREFOUR              ]
+CARGADO EN       [TARJETA: 5874 2569 8712 3546]
+IMPORTE          [-        66,66]
+FECHA            [2023-01-18 08:23:05.000000]
+MOVIMIENTO       [ADEUDO AQUALIA         ]
+CARGADO EN       [CUENTA : 9564 8702 35 4810 256320]
+IMPORTE          [-        87,65]
+FECHA            [2019-09-25 17:56:49.000000]
+MOVIMIENTO       [CEPSA                  ]
+CARGADO EN       [TARJETA: 5874 2569 8712 3546]
+IMPORTE          [-        88,88]
+FECHA            [2023-12-13 08:23:05.000000]
+MOVIMIENTO       [ADEUDO ENDESA          ]
+CARGADO EN       [CUENTA : 9564 8702 35 4810 256320]
+IMPORTE          [-        99,99]
+FECHA            [2023-11-17 08:23:05.000000]
+MOVIMIENTO       [ANOMINA BENITO         ]
+CARGADO EN       [CUENTA : 9564 8702 35 4810 256320]
+IMPORTE          [-       198,05]
+FECHA            [2023-05-30 14:58:29.000000]
+*********BANCO-ALTA-CLIENTE************
+NUMS/N
+CALLECALLE CROTOLAMO                    
+CODPOS78451
+PROVALMERIA         
+POBLROQUETAS DE MAR 
+--------------------------------------------------
+NOMBRE           [BABY YODA                                                ]
+NIF              [978574639P]
+FECHA NACIMIENTO [31/12/1999]
+DOMILICIO        [CALLE PRINCESA                     , 006, 98642, VALENCIA        , CASABLANCA                       ]
+NUMERO CUENTA    [8572 3674 38 4892 302938 - COTITULAR ]
+SALDO            [+     8.997,65]
+NUMERO TARJETA   [1267 4368 2738 7567]
+CRÉDITO          [+     5.678,92]
+FECHA TARJETA    [08/25]
+CCV              [857]
+NUMERO CUENTA    [1271 8376 74 3756 387839 - TITULAR   ]
+SALDO            [+     2.384,75]
+NUMERO TARJETA   [2783 2784 3734 6235]
+CRÉDITO          [+        87,43]
+FECHA TARJETA    [11/22]
+CCV              [858]
+MOVIMIENTO       [MACDONAL               ]
+CARGADO EN       [TARJETA: 1267 4368 2738 7567]
+IMPORTE          [-        15,99]
+FECHA            [2023-11-29 12:56:37.000000]
+MOVIMIENTO       [GAME                   ]
+CARGADO EN       [CUENTA : 1271 8376 74 3756 387839]
+IMPORTE          [-       678,96]
+FECHA            [2021-03-07 09:23:05.000000]
+MOVIMIENTO       [PRIMARK                ]
+CARGADO EN       [TARJETA: 2783 2784 3734 6235]
+IMPORTE          [+       556,00]
+FECHA            [2020-08-29 10:56:55.000000]
+MOVIMIENTO       [LEROY MERLIN           ]
+CARGADO EN       [CUENTA : 8572 3674 38 4892 302938]
+IMPORTE          [-     1.789,34]
+FECHA            [2019-12-08 20:54:32.000000]
+MOVIMIENTO       [PRIMOR                 ]
+CARGADO EN       [TARJETA: 2783 2784 3734 6235]
+IMPORTE          [+        48,71]
+FECHA            [2020-03-15 09:24:20.000000]
+*********BANCO-ALTA-CLIENTE************
+NUM006
+CALLECALLE PRINCESA                     
+CODPOS98642
+PROVVALENCIA        
+POBLCASABLANCA      
+--------------------------------------------------
+FICHERO CERRADO
+NUMERO DE CUENTA VACIO/ERRONEO                    
