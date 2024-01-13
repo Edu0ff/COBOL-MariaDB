@@ -2,7 +2,7 @@
 Proyecto ficticio basado en un banco.  
 
 Escrito con especificaciones dadas por un profesional senior en el sector financiero. Este proyecto se ha realizado para asentar conocimientos en COBOL.  
-Se ha utlizado GNUCobol en el sistema operativo Fedora 39. Y como preprocesador y entorno de ejecución SQL: [ESQL for ODBC for GnuCobol/OpenCOBOL](http://www.kiska.net/opencobol/esql/).  
+Se ha utlizado [GNUCobol](https://gnucobol.sourceforge.io/) en el sistema operativo Fedora 39. Y como preprocesador y entorno de ejecución SQL: [ESQL for ODBC for GnuCobol/OpenCOBOL](http://www.kiska.net/opencobol/esql/).  
 
 Este programa maneja ficheros .dat e inserta los datos en una BBDD (MariaDB), escrito en COBOL.  
 En el directorio "Documentación" se encuentran las especificaciones más detallada del funcionamiento contenidas en los análisis funcional y orgánico, así como el modelado de la BBDD.
